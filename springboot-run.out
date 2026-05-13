@@ -1,1343 +1,0 @@
-[INFO] Scanning for projects...
-Downloading from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml
-Downloading from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml
-Downloading from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml
-Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml
-Progress (1): 234 BProgress (2): 234 B | 249 BProgress (3): 234 B | 249 B | 255 BProgress (4): 234 B | 249 B | 255 B | 398 B                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/maven-metadata.xml (249 B at 470 B/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/io/github/git-commit-id/maven-metadata.xml (255 B at 480 B/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/jooq/maven-metadata.xml (398 B at 748 B/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/flywaydb/maven-metadata.xml (234 B at 439 B/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml
-Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml
-Downloading from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
-Progress (1): 375 BProgress (2): 375 B | 242 B                           Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/maven-metadata.xml (375 B at 9.6 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
-Progress (2): 242 B | 394 B                           Downloaded from central: https://repo.maven.apache.org/maven2/org/graalvm/buildtools/maven-metadata.xml (242 B at 5.6 kB/s)
-Progress (2): 394 B | 4.6 kBProgress (2): 394 B | 9.7 kBProgress (2): 394 B | 14 kB                            Downloaded from central: https://repo.maven.apache.org/maven2/org/liquibase/maven-metadata.xml (394 B at 8.6 kB/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 317 kB/s)
-Progress (1): 3.1 kBProgress (1): 7.7 kBProgress (1): 12 kB Progress (1): 17 kBProgress (1): 20 kBProgress (1): 21 kB                   Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 275 kB/s)
-[INFO] 
-[INFO] -----------------------< jpa:courier_management >-----------------------
-[INFO] Building courier_management 0.0.1-SNAPSHOT
-[INFO]   from pom.xml
-[INFO] --------------------------------[ jar ]---------------------------------
-[INFO] 
-[INFO] >>> spring-boot:3.2.3:run (default-cli) > test-compile @ courier_management >>>
-[INFO] 
-[INFO] --- resources:3.3.1:resources (default-resources) @ courier_management ---
-[INFO] Copying 1 resource from src\main\resources to target\classes
-[INFO] Copying 0 resource from src\main\resources to target\classes
-[INFO] 
-[INFO] --- compiler:3.11.0:compile (default-compile) @ courier_management ---
-[INFO] Changes detected - recompiling the module! :input tree
-[INFO] Compiling 40 source files with javac [debug release 17] to target\classes
-[INFO] /D:/GitClones_2/courier_management_spring-boot/src/main/java/jpapackage/service/TakenOrdersService.java: Some input files use or override a deprecated API.
-[INFO] /D:/GitClones_2/courier_management_spring-boot/src/main/java/jpapackage/service/TakenOrdersService.java: Recompile with -Xlint:deprecation for details.
-[INFO] 
-[INFO] --- resources:3.3.1:testResources (default-testResources) @ courier_management ---
-[INFO] skip non existing resourceDirectory D:\GitClones_2\courier_management_spring-boot\src\test\resources
-[INFO] 
-[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ courier_management ---
-[INFO] Changes detected - recompiling the module! :dependency
-[INFO] Compiling 7 source files with javac [debug release 17] to target\test-classes
-[INFO] /D:/GitClones_2/courier_management_spring-boot/src/test/java/jpapackage/ServiceTest/TakenOrdersServiceTest.java: Some input files use or override a deprecated API.
-[INFO] /D:/GitClones_2/courier_management_spring-boot/src/test/java/jpapackage/ServiceTest/TakenOrdersServiceTest.java: Recompile with -Xlint:deprecation for details.
-[INFO] 
-[INFO] <<< spring-boot:3.2.3:run (default-cli) < test-compile @ courier_management <<<
-[INFO] 
-[INFO] 
-[INFO] --- spring-boot:3.2.3:run (default-cli) @ courier_management ---
-Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.2.3/spring-boot-buildpack-platform-3.2.3.jar
-Progress (1): 0.9/272 kBProgress (1): 2.3/272 kBProgress (1): 3.2/272 kBProgress (1): 4.6/272 kBProgress (1): 5.9/272 kBProgress (1): 7.3/272 kBProgress (1): 8.7/272 kBProgress (1): 10/272 kB Progress (1): 11/272 kBProgress (1): 13/272 kBProgress (1): 14/272 kBProgress (1): 16/272 kBProgress (1): 17/272 kBProgress (1): 18/272 kBProgress (1): 20/272 kBProgress (1): 21/272 kBProgress (1): 22/272 kBProgress (1): 24/272 kBProgress (1): 25/272 kBProgress (1): 26/272 kBProgress (1): 28/272 kBProgress (1): 29/272 kBProgress (1): 31/272 kBProgress (1): 32/272 kBProgress (1): 33/272 kBProgress (1): 35/272 kBProgress (1): 36/272 kBProgress (1): 37/272 kBProgress (1): 39/272 kBProgress (1): 40/272 kBProgress (1): 42/272 kBProgress (1): 43/272 kBProgress (1): 47/272 kBProgress (1): 51/272 kBProgress (1): 56/272 kBProgress (1): 60/272 kBProgress (1): 64/272 kBProgress (1): 68/272 kBProgress (1): 72/272 kBProgress (1): 77/272 kBProgress (1): 81/272 kBProgress (1): 85/272 kBProgress (1): 89/272 kBProgress (1): 94/272 kBProgress (1): 98/272 kBProgress (1): 102/272 kBProgress (1): 106/272 kBProgress (1): 111/272 kBProgress (1): 115/272 kBProgress (1): 119/272 kBProgress (1): 123/272 kBProgress (1): 126/272 kBProgress (1): 130/272 kBProgress (1): 135/272 kBProgress (1): 139/272 kBProgress (1): 143/272 kBProgress (1): 147/272 kBProgress (1): 151/272 kBProgress (1): 156/272 kBProgress (1): 160/272 kBProgress (1): 164/272 kBProgress (1): 168/272 kBProgress (1): 173/272 kBProgress (1): 177/272 kBProgress (1): 181/272 kBProgress (1): 185/272 kBProgress (1): 190/272 kBProgress (1): 194/272 kBProgress (1): 198/272 kBProgress (1): 202/272 kBProgress (1): 206/272 kBProgress (1): 211/272 kBProgress (1): 227/272 kBProgress (1): 243/272 kBProgress (1): 257/272 kBProgress (1): 272 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/3.2.3/spring-boot-buildpack-platform-3.2.3.jar (272 kB at 2.2 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.2/jackson-module-parameter-names-2.14.2.jar
-Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.2.3/httpclient5-5.2.3.jar
-Progress (1): 7.7/9.5 kBProgress (1): 9.5 kB    Progress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MBProgress (2): 9.5 kB | 0/1.0 MB                               Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.14.2/jackson-module-parameter-names-2.14.2.jar (9.5 kB at 185 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar
-Progress (1): 0/1.0 MBProgress (1): 0/1.0 MBProgress (1): 0/1.0 MBProgress (1): 0/1.0 MBProgress (1): 0/1.0 MBProgress (1): 0/1.0 MBProgress (1): 0/1.0 MBProgress (1): 0/1.0 MBProgress (1): 0/1.0 MBProgress (1): 0/1.0 MBProgress (2): 0/1.0 MB | 0/1.4 MBProgress (2): 0/1.0 MB | 0/1.4 MBProgress (2): 0/1.0 MB | 0/1.4 MBProgress (2): 0/1.0 MB | 0/1.4 MBProgress (2): 0/1.0 MB | 0/1.4 MBProgress (2): 0/1.0 MB | 0/1.4 MBProgress (2): 0/1.0 MB | 0/1.4 MBProgress (2): 0/1.0 MB | 0/1.4 MBProgress (2): 0/1.0 MB | 0/1.4 MBProgress (2): 0/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (2): 0.1/1.0 MB | 0/1.4 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (3): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 7.7/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 16/855 kB Progress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 24/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 40/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 40/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 40/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 40/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 40/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 40/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 57/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 57/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 57/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 57/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 57/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 73/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 73/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.1/1.9 MB | 73/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 73/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 73/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 73/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 73/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 90/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 90/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 90/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 90/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 90/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 90/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 106/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 106/855 kBProgress (4): 0.1/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 106/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 106/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 106/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 106/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 106/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 122/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 122/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 139/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 139/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 139/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 155/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 155/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 155/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 155/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 155/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 172/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 172/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 172/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 172/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 172/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 172/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 172/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 188/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 188/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 188/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 204/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 221/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 221/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 221/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 237/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 237/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 237/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 237/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 253/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 253/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 253/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 270/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 270/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 286/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 303/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 303/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 303/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 303/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 319/855 kBProgress (4): 0.2/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 319/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 319/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 319/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 335/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 335/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 352/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 352/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 352/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 368/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 385/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 385/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 385/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 385/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 401/855 kBProgress (4): 0.3/1.0 MB | 0.1/1.4 MB | 0.2/1.9 MB | 401/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.2/1.9 MB | 401/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.2/1.9 MB | 417/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.2/1.9 MB | 417/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.2/1.9 MB | 434/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 434/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 434/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 434/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 450/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 450/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 450/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 466/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 466/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 483/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 483/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 483/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 483/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 483/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 499/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 499/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 516/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 516/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 516/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 532/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 532/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 532/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 532/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 532/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 532/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 548/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 548/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 548/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 548/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 565/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 565/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 565/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 565/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.3/1.9 MB | 581/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 581/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 598/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 598/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 614/855 kBProgress (4): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 614/855 kBProgress (5): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 614/855 kB | 0.9/843 kBProgress (5): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 614/855 kB | 2.3/843 kBProgress (5): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 614/855 kB | 2.3/843 kBProgress (5): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 614/855 kB | 3.6/843 kBProgress (5): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 614/855 kB | 5.0/843 kBProgress (5): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 614/855 kB | 6.4/843 kBProgress (5): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 614/855 kB | 7.7/843 kBProgress (5): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 614/855 kB | 9.1/843 kBProgress (5): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 9.1/843 kBProgress (5): 0.3/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 10/843 kB Progress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 10/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 10/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 12/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 13/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 15/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 15/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 17/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 18/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 20/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 21/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 630/855 kB | 21/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 647/855 kB | 21/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 647/855 kB | 21/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 647/855 kB | 22/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 647/855 kB | 24/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 647/855 kB | 25/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 647/855 kB | 26/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 663/855 kB | 26/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 663/855 kB | 28/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 663/855 kB | 29/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 663/855 kB | 31/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 663/855 kB | 32/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 663/855 kB | 33/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 663/855 kB | 35/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 663/855 kB | 36/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 663/855 kB | 37/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 663/855 kB | 39/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 663/855 kB | 40/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 679/855 kB | 40/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 679/855 kB | 41/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 679/855 kB | 41/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 679/855 kB | 41/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 679/855 kB | 43/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 679/855 kB | 44/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 679/855 kB | 44/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 679/855 kB | 46/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 696/855 kB | 46/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 696/855 kB | 47/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 696/855 kB | 48/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 696/855 kB | 48/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 696/855 kB | 50/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 696/855 kB | 51/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 696/855 kB | 51/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 696/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.4/1.9 MB | 712/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 712/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 712/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 729/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 729/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 729/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 745/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 761/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 778/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 778/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 778/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 794/855 kB | 52/843 kBProgress (5): 0.4/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 794/855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 794/855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 811/855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 827/855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 827/855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 827/855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 843/855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 843/855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 843/855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 855 kB | 52/843 kB    Progress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.5/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.2/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.3/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.3/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.3/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.3/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.3/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.3/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.3/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.3/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.3/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.4/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.4/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.4/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.4/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.4/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.5/1.0 MB | 0.4/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.6/1.9 MB | 855 kB | 52/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.6/1.9 MB | 855 kB | 54/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.6/1.9 MB | 855 kB | 55/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.6/1.9 MB | 855 kB | 59/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.6/1.9 MB | 855 kB | 59/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 59/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 64/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 68/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 72/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 76/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 76/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 76/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 76/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 81/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 85/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 85/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 89/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 89/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 93/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 93/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 97/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 102/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 102/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 106/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 106/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 106/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 106/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.7/1.9 MB | 855 kB | 106/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 106/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 106/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 106/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 110/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.6/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.7/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.7/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.7/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.7/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.7/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.7/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.7/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.7/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.7/1.0 MB | 0.4/1.4 MB | 0.8/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.7/1.0 MB | 0.4/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.7/1.0 MB | 0.4/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.4/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.4/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.4/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.4/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.4/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.5/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.5/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.5/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.5/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.5/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.5/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.5/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.5/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.5/1.4 MB | 0.9/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.5/1.4 MB | 1.0/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.8/1.0 MB | 0.5/1.4 MB | 1.0/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.0/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.0/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.0/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.0/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.0/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.0/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.0/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.0/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.5/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 0.9/1.0 MB | 0.6/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 1.0/1.0 MB | 0.6/1.4 MB | 1.1/1.9 MB | 855 kB | 114/843 kBProgress (5): 1.0/1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 114/843 kBProgress (5): 1.0/1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 114/843 kBProgress (5): 1.0/1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 114/843 kBProgress (5): 1.0/1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 114/843 kBProgress (5): 1.0/1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 114/843 kBProgress (5): 1.0/1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 114/843 kBProgress (5): 1.0/1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 114/843 kBProgress (5): 1.0/1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 114/843 kBProgress (5): 1.0/1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 114/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 114/843 kB    Progress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 119/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 123/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 123/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 123/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 127/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 131/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 131/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 131/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 136/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 136/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.2/1.9 MB | 855 kB | 140/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.3/1.9 MB | 855 kB | 140/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.3/1.9 MB | 855 kB | 140/843 kBProgress (5): 1.0 MB | 0.6/1.4 MB | 1.3/1.9 MB | 855 kB | 140/843 kBProgress (5): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 855 kB | 140/843 kBProgress (5): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 855 kB | 140/843 kBProgress (5): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 855 kB | 140/843 kBProgress (5): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 855 kB | 140/843 kB                                                                    Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar (855 kB at 4.0 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar
-Progress (4): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 140/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 144/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 147/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 147/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 147/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 151/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 155/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.3/1.9 MB | 159/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.4/1.9 MB | 159/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.4/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.4/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.4/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.4/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.4/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.4/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.4/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.4/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.5/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.5/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.5/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.5/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.5/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.5/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.5/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.5/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.5/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.5/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.6/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.6/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.6/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.7/1.4 MB | 1.6/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.6/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.6/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.6/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.6/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 163/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 168/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 172/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 172/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 176/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 180/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 185/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 185/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 189/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 193/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 197/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 202/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 202/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 206/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 210/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 210/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 214/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 214/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 218/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 223/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 223/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 239/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 239/843 kBProgress (4): 1.0 MB | 0.8/1.4 MB | 1.7/1.9 MB | 239/843 kBProgress (4): 1.0 MB | 0.9/1.4 MB | 1.7/1.9 MB | 239/843 kBProgress (4): 1.0 MB | 0.9/1.4 MB | 1.7/1.9 MB | 255/843 kBProgress (4): 1.0 MB | 0.9/1.4 MB | 1.7/1.9 MB | 255/843 kBProgress (4): 1.0 MB | 0.9/1.4 MB | 1.8/1.9 MB | 255/843 kB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar (1.0 MB at 4.2 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.0.10/spring-core-6.0.10.jar
-Progress (3): 0.9/1.4 MB | 1.8/1.9 MB | 255/843 kBProgress (3): 0.9/1.4 MB | 1.8/1.9 MB | 255/843 kBProgress (3): 0.9/1.4 MB | 1.8/1.9 MB | 255/843 kBProgress (3): 0.9/1.4 MB | 1.8/1.9 MB | 272/843 kBProgress (3): 0.9/1.4 MB | 1.8/1.9 MB | 278/843 kBProgress (3): 0.9/1.4 MB | 1.8/1.9 MB | 278/843 kBProgress (3): 0.9/1.4 MB | 1.8/1.9 MB | 278/843 kBProgress (3): 0.9/1.4 MB | 1.8/1.9 MB | 278/843 kBProgress (3): 1.0/1.4 MB | 1.8/1.9 MB | 278/843 kBProgress (3): 1.0/1.4 MB | 1.8/1.9 MB | 278/843 kBProgress (3): 1.0/1.4 MB | 1.8/1.9 MB | 294/843 kBProgress (3): 1.0/1.4 MB | 1.8/1.9 MB | 294/843 kBProgress (3): 1.0/1.4 MB | 1.8/1.9 MB | 294/843 kBProgress (3): 1.0/1.4 MB | 1.8/1.9 MB | 294/843 kBProgress (3): 1.0/1.4 MB | 1.8/1.9 MB | 310/843 kBProgress (3): 1.0/1.4 MB | 1.9/1.9 MB | 310/843 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 310/843 kB | 7.7/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 310/843 kB | 16/237 kB Progress (4): 1.0/1.4 MB | 1.9/1.9 MB | 310/843 kB | 24/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 310/843 kB | 24/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 310/843 kB | 40/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 327/843 kB | 40/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 327/843 kB | 40/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 327/843 kB | 57/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 343/843 kB | 57/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 343/843 kB | 57/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 343/843 kB | 73/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 343/843 kB | 73/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 343/843 kB | 90/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 343/843 kB | 106/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 360/843 kB | 106/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 360/843 kB | 122/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 376/843 kB | 122/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 376/843 kB | 139/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 376/843 kB | 155/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 376/843 kB | 172/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 392/843 kB | 172/237 kBProgress (4): 1.0/1.4 MB | 1.9/1.9 MB | 392/843 kB | 188/237 kBProgress (4): 1.0/1.4 MB | 1.9 MB | 392/843 kB | 188/237 kB    Progress (4): 1.0/1.4 MB | 1.9 MB | 392/843 kB | 204/237 kBProgress (4): 1.0/1.4 MB | 1.9 MB | 409/843 kB | 204/237 kBProgress (4): 1.0/1.4 MB | 1.9 MB | 409/843 kB | 221/237 kBProgress (4): 1.0/1.4 MB | 1.9 MB | 425/843 kB | 221/237 kBProgress (4): 1.0/1.4 MB | 1.9 MB | 425/843 kB | 237/237 kBProgress (4): 1.0/1.4 MB | 1.9 MB | 425/843 kB | 237 kB    Progress (4): 1.0/1.4 MB | 1.9 MB | 441/843 kB | 237 kBProgress (4): 1.0/1.4 MB | 1.9 MB | 458/843 kB | 237 kBProgress (4): 1.1/1.4 MB | 1.9 MB | 458/843 kB | 237 kBProgress (4): 1.1/1.4 MB | 1.9 MB | 474/843 kB | 237 kBProgress (4): 1.1/1.4 MB | 1.9 MB | 474/843 kB | 237 kBProgress (4): 1.1/1.4 MB | 1.9 MB | 491/843 kB | 237 kBProgress (4): 1.1/1.4 MB | 1.9 MB | 507/843 kB | 237 kBProgress (4): 1.1/1.4 MB | 1.9 MB | 507/843 kB | 237 kB                                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar (237 kB at 895 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.0.10/spring-jcl-6.0.10.jar
-Progress (4): 1.1/1.4 MB | 1.9 MB | 507/843 kB | 0/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 507/843 kB | 0/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 507/843 kB | 0/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 507/843 kB | 0/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 507/843 kB | 0/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 507/843 kB | 0/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 507/843 kB | 0/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 523/843 kB | 0/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 523/843 kB | 0.1/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 540/843 kB | 0.1/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 540/843 kB | 0.1/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 556/843 kB | 0.1/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 556/843 kB | 0.1/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 573/843 kB | 0.1/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 573/843 kB | 0.1/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 573/843 kB | 0.1/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 589/843 kB | 0.1/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 589/843 kB | 0.1/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 605/843 kB | 0.1/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 605/843 kB | 0.2/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 622/843 kB | 0.2/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 622/843 kB | 0.2/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 638/843 kB | 0.2/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 638/843 kB | 0.2/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 654/843 kB | 0.2/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 654/843 kB | 0.2/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 671/843 kB | 0.2/1.8 MBProgress (4): 1.1/1.4 MB | 1.9 MB | 671/843 kB | 0.2/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 671/843 kB | 0.2/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 671/843 kB | 0.2/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 671/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 671/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 687/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 687/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 704/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 704/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 720/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 720/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 720/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 736/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 736/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 753/843 kB | 0.3/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 753/843 kB | 0.4/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 769/843 kB | 0.4/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 769/843 kB | 0.4/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 769/843 kB | 0.4/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 786/843 kB | 0.4/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 786/843 kB | 0.4/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 802/843 kB | 0.4/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 802/843 kB | 0.4/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 802/843 kB | 0.4/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 802/843 kB | 0.4/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 802/843 kB | 0.4/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 802/843 kB | 0.5/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 802/843 kB | 0.5/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 802/843 kB | 0.5/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 802/843 kB | 0.5/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 818/843 kB | 0.5/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 818/843 kB | 0.5/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 818/843 kB | 0.5/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 835/843 kB | 0.5/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 835/843 kB | 0.5/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 843 kB | 0.5/1.8 MB    Progress (4): 1.2/1.4 MB | 1.9 MB | 843 kB | 0.5/1.8 MBProgress (4): 1.2/1.4 MB | 1.9 MB | 843 kB | 0.5/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.5/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.6/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.6/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.6/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.6/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.6/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.6/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.6/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.6/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.6/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.7/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.7/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.7/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.7/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.7/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.7/1.8 MBProgress (4): 1.3/1.4 MB | 1.9 MB | 843 kB | 0.7/1.8 MBProgress (4): 1.4/1.4 MB | 1.9 MB | 843 kB | 0.7/1.8 MBProgress (4): 1.4/1.4 MB | 1.9 MB | 843 kB | 0.7/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.7/1.8 MB    Progress (4): 1.4 MB | 1.9 MB | 843 kB | 0.8/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.8/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.8/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.8/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.8/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.8/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.9/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.9/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.9/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.9/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.9/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 0.9/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.0/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.0/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.0/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.0/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.0/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.0/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.1/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.1/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.1/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.1/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.1/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.1/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.2/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.2/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.2/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.2/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.2/1.8 MBProgress (5): 1.4 MB | 1.9 MB | 843 kB | 1.2/1.8 MB | 7.7/24 kBProgress (5): 1.4 MB | 1.9 MB | 843 kB | 1.2/1.8 MB | 16/24 kB Progress (5): 1.4 MB | 1.9 MB | 843 kB | 1.2/1.8 MB | 16/24 kBProgress (5): 1.4 MB | 1.9 MB | 843 kB | 1.2/1.8 MB | 24 kB   Progress (5): 1.4 MB | 1.9 MB | 843 kB | 1.2/1.8 MB | 24 kBProgress (5): 1.4 MB | 1.9 MB | 843 kB | 1.3/1.8 MB | 24 kBProgress (5): 1.4 MB | 1.9 MB | 843 kB | 1.3/1.8 MB | 24 kBProgress (5): 1.4 MB | 1.9 MB | 843 kB | 1.3/1.8 MB | 24 kBProgress (5): 1.4 MB | 1.9 MB | 843 kB | 1.3/1.8 MB | 24 kBProgress (5): 1.4 MB | 1.9 MB | 843 kB | 1.3/1.8 MB | 24 kBProgress (5): 1.4 MB | 1.9 MB | 843 kB | 1.3/1.8 MB | 24 kB                                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-jcl/6.0.10/spring-jcl-6.0.10.jar (24 kB at 69 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.jar
-Progress (4): 1.4 MB | 1.9 MB | 843 kB | 1.4/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.4/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.4/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.4/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.4/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.4/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.5/1.8 MBProgress (4): 1.4 MB | 1.9 MB | 843 kB | 1.5/1.8 MB                                                   Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar (1.9 MB at 5.3 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar
-Progress (3): 1.4 MB | 843 kB | 1.5/1.8 MBProgress (3): 1.4 MB | 843 kB | 1.5/1.8 MBProgress (3): 1.4 MB | 843 kB | 1.5/1.8 MBProgress (3): 1.4 MB | 843 kB | 1.5/1.8 MBProgress (3): 1.4 MB | 843 kB | 1.6/1.8 MBProgress (3): 1.4 MB | 843 kB | 1.6/1.8 MBProgress (3): 1.4 MB | 843 kB | 1.6/1.8 MBProgress (3): 1.4 MB | 843 kB | 1.6/1.8 MBProgress (3): 1.4 MB | 843 kB | 1.6/1.8 MBProgress (3): 1.4 MB | 843 kB | 1.6/1.8 MB                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.2.3/httpclient5-5.2.3.jar (843 kB at 2.3 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.2.3/spring-boot-loader-tools-3.2.3.jar
-Progress (2): 1.4 MB | 1.6/1.8 MBProgress (2): 1.4 MB | 1.7/1.8 MBProgress (2): 1.4 MB | 1.7/1.8 MBProgress (2): 1.4 MB | 1.7/1.8 MBProgress (2): 1.4 MB | 1.7/1.8 MBProgress (2): 1.4 MB | 1.7/1.8 MBProgress (2): 1.4 MB | 1.7/1.8 MBProgress (2): 1.4 MB | 1.8/1.8 MBProgress (2): 1.4 MB | 1.8/1.8 MB                                 Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar (1.4 MB at 3.7 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.jar
-Progress (1): 1.8/1.8 MBProgress (1): 1.8/1.8 MBProgress (1): 1.8 MB    Progress (2): 1.8 MB | 4.1/157 kBProgress (2): 1.8 MB | 20/157 kB Progress (2): 1.8 MB | 37/157 kBProgress (2): 1.8 MB | 53/157 kBProgress (2): 1.8 MB | 61/157 kBProgress (2): 1.8 MB | 78/157 kBProgress (3): 1.8 MB | 78/157 kB | 7.7/338 kBProgress (3): 1.8 MB | 78/157 kB | 8.2/338 kBProgress (3): 1.8 MB | 78/157 kB | 25/338 kB Progress (3): 1.8 MB | 78/157 kB | 41/338 kBProgress (3): 1.8 MB | 78/157 kB | 57/338 kBProgress (4): 1.8 MB | 78/157 kB | 57/338 kB | 7.7/58 kBProgress (4): 1.8 MB | 78/157 kB | 57/338 kB | 12/58 kB Progress (4): 1.8 MB | 78/157 kB | 74/338 kB | 12/58 kBProgress (4): 1.8 MB | 78/157 kB | 74/338 kB | 29/58 kBProgress (4): 1.8 MB | 78/157 kB | 90/338 kB | 29/58 kBProgress (4): 1.8 MB | 78/157 kB | 90/338 kB | 45/58 kBProgress (4): 1.8 MB | 78/157 kB | 106/338 kB | 45/58 kBProgress (5): 1.8 MB | 78/157 kB | 106/338 kB | 45/58 kB | 7.7/434 kBProgress (5): 1.8 MB | 78/157 kB | 106/338 kB | 45/58 kB | 16/434 kB Progress (5): 1.8 MB | 78/157 kB | 106/338 kB | 58 kB | 16/434 kB   Progress (5): 1.8 MB | 78/157 kB | 106/338 kB | 58 kB | 32/434 kBProgress (5): 1.8 MB | 78/157 kB | 123/338 kB | 58 kB | 32/434 kBProgress (5): 1.8 MB | 78/157 kB | 123/338 kB | 58 kB | 48/434 kBProgress (5): 1.8 MB | 78/157 kB | 139/338 kB | 58 kB | 48/434 kBProgress (5): 1.8 MB | 78/157 kB | 139/338 kB | 58 kB | 65/434 kBProgress (5): 1.8 MB | 78/157 kB | 156/338 kB | 58 kB | 65/434 kBProgress (5): 1.8 MB | 78/157 kB | 156/338 kB | 58 kB | 81/434 kBProgress (5): 1.8 MB | 78/157 kB | 156/338 kB | 58 kB | 97/434 kBProgress (5): 1.8 MB | 78/157 kB | 156/338 kB | 58 kB | 114/434 kBProgress (5): 1.8 MB | 78/157 kB | 156/338 kB | 58 kB | 130/434 kBProgress (5): 1.8 MB | 78/157 kB | 156/338 kB | 58 kB | 147/434 kBProgress (5): 1.8 MB | 78/157 kB | 156/338 kB | 58 kB | 163/434 kBProgress (5): 1.8 MB | 94/157 kB | 156/338 kB | 58 kB | 163/434 kBProgress (5): 1.8 MB | 94/157 kB | 156/338 kB | 58 kB | 179/434 kBProgress (5): 1.8 MB | 111/157 kB | 156/338 kB | 58 kB | 179/434 kBProgress (5): 1.8 MB | 111/157 kB | 156/338 kB | 58 kB | 196/434 kBProgress (5): 1.8 MB | 127/157 kB | 156/338 kB | 58 kB | 196/434 kBProgress (5): 1.8 MB | 127/157 kB | 156/338 kB | 58 kB | 212/434 kBProgress (5): 1.8 MB | 143/157 kB | 156/338 kB | 58 kB | 212/434 kBProgress (5): 1.8 MB | 143/157 kB | 156/338 kB | 58 kB | 228/434 kBProgress (5): 1.8 MB | 157 kB | 156/338 kB | 58 kB | 228/434 kB    Progress (5): 1.8 MB | 157 kB | 156/338 kB | 58 kB | 245/434 kB                                                               Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-common-artifact-filters/3.3.2/maven-common-artifact-filters-3.3.2.jar (58 kB at 138 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.jar
-Progress (4): 1.8 MB | 157 kB | 156/338 kB | 261/434 kBProgress (4): 1.8 MB | 157 kB | 156/338 kB | 278/434 kBProgress (4): 1.8 MB | 157 kB | 156/338 kB | 294/434 kBProgress (4): 1.8 MB | 157 kB | 156/338 kB | 310/434 kBProgress (4): 1.8 MB | 157 kB | 156/338 kB | 327/434 kBProgress (4): 1.8 MB | 157 kB | 156/338 kB | 343/434 kBProgress (4): 1.8 MB | 157 kB | 156/338 kB | 360/434 kBProgress (4): 1.8 MB | 157 kB | 156/338 kB | 376/434 kBProgress (4): 1.8 MB | 157 kB | 156/338 kB | 392/434 kBProgress (4): 1.8 MB | 157 kB | 156/338 kB | 409/434 kBProgress (4): 1.8 MB | 157 kB | 156/338 kB | 425/434 kBProgress (4): 1.8 MB | 157 kB | 156/338 kB | 434 kB                                                       Downloaded from central: https://repo.maven.apache.org/maven2/org/tomlj/tomlj/1.0.0/tomlj-1.0.0.jar (157 kB at 364 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.jar
-Progress (3): 1.8 MB | 172/338 kB | 434 kBProgress (3): 1.8 MB | 188/338 kB | 434 kBProgress (3): 1.8 MB | 205/338 kB | 434 kBProgress (3): 1.8 MB | 221/338 kB | 434 kBProgress (3): 1.8 MB | 238/338 kB | 434 kBProgress (3): 1.8 MB | 254/338 kB | 434 kBProgress (3): 1.8 MB | 262/338 kB | 434 kBProgress (3): 1.8 MB | 279/338 kB | 434 kBProgress (3): 1.8 MB | 295/338 kB | 434 kBProgress (3): 1.8 MB | 311/338 kB | 434 kBProgress (3): 1.8 MB | 328/338 kB | 434 kBProgress (3): 1.8 MB | 338 kB | 434 kB                                          Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/3.2.3/spring-boot-loader-tools-3.2.3.jar (434 kB at 948 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar (338 kB at 725 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar
-Progress (2): 1.8 MB | 7.7/268 kBProgress (2): 1.8 MB | 16/268 kB Progress (2): 1.8 MB | 32/268 kBProgress (2): 1.8 MB | 49/268 kBProgress (2): 1.8 MB | 65/268 kBProgress (2): 1.8 MB | 81/268 kBProgress (2): 1.8 MB | 98/268 kBProgress (3): 1.8 MB | 98/268 kB | 7.7/147 kBProgress (3): 1.8 MB | 98/268 kB | 16/147 kB                                             Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/spring-core/6.0.10/spring-core-6.0.10.jar (1.8 MB at 3.8 MB/s)
-Progress (2): 114/268 kB | 16/147 kB                                    Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar
-Progress (2): 114/268 kB | 32/147 kBProgress (2): 131/268 kB | 32/147 kBProgress (2): 131/268 kB | 48/147 kBProgress (2): 131/268 kB | 65/147 kBProgress (2): 147/268 kB | 65/147 kBProgress (2): 147/268 kB | 81/147 kBProgress (2): 163/268 kB | 81/147 kBProgress (2): 163/268 kB | 97/147 kBProgress (2): 180/268 kB | 97/147 kBProgress (2): 180/268 kB | 114/147 kBProgress (2): 196/268 kB | 114/147 kBProgress (2): 196/268 kB | 130/147 kBProgress (2): 212/268 kB | 130/147 kBProgress (2): 213/268 kB | 130/147 kBProgress (2): 213/268 kB | 147/147 kBProgress (2): 213/268 kB | 147 kB    Progress (2): 229/268 kB | 147 kBProgress (2): 246/268 kB | 147 kBProgress (2): 262/268 kB | 147 kBProgress (2): 268 kB | 147 kB                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-shade-plugin/3.5.0/maven-shade-plugin-3.5.0.jar (147 kB at 291 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.1/maven-dependency-tree-3.2.1.jar
-Progress (2): 268 kB | 7.7/122 kBProgress (2): 268 kB | 15/122 kB Progress (3): 268 kB | 15/122 kB | 7.7/72 kBProgress (3): 268 kB | 15/122 kB | 16/72 kB Progress (3): 268 kB | 32/122 kB | 16/72 kB                                           Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.8/plexus-utils-1.5.8.jar (268 kB at 528 kB/s)
-Progress (2): 32/122 kB | 32/72 kB                                  Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar
-Progress (2): 48/122 kB | 32/72 kBProgress (2): 48/122 kB | 49/72 kBProgress (2): 65/122 kB | 49/72 kBProgress (2): 65/122 kB | 65/72 kBProgress (2): 65/122 kB | 72 kB   Progress (2): 81/122 kB | 72 kBProgress (2): 97/122 kB | 72 kBProgress (2): 114/122 kB | 72 kBProgress (2): 122 kB | 72 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar (122 kB at 235 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar (72 kB at 139 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar
-Progress (1): 7.7/52 kBProgress (1): 11/52 kB Progress (1): 28/52 kBProgress (1): 44/52 kBProgress (1): 52 kB   Progress (2): 52 kB | 7.7/43 kBProgress (2): 52 kB | 16/43 kB Progress (2): 52 kB | 32/43 kBProgress (2): 52 kB | 43 kB   Progress (3): 52 kB | 43 kB | 3.2/146 kBProgress (3): 52 kB | 43 kB | 20/146 kB Progress (3): 52 kB | 43 kB | 36/146 kBProgress (3): 52 kB | 43 kB | 52/146 kBProgress (3): 52 kB | 43 kB | 69/146 kBProgress (3): 52 kB | 43 kB | 85/146 kBProgress (3): 52 kB | 43 kB | 102/146 kBProgress (3): 52 kB | 43 kB | 118/146 kBProgress (3): 52 kB | 43 kB | 134/146 kBProgress (3): 52 kB | 43 kB | 146 kB    Progress (4): 52 kB | 43 kB | 146 kB | 7.7/136 kBProgress (4): 52 kB | 43 kB | 146 kB | 15/136 kB Progress (4): 52 kB | 43 kB | 146 kB | 32/136 kBProgress (4): 52 kB | 43 kB | 146 kB | 48/136 kBProgress (4): 52 kB | 43 kB | 146 kB | 65/136 kBProgress (4): 52 kB | 43 kB | 146 kB | 81/136 kBProgress (4): 52 kB | 43 kB | 146 kB | 97/136 kBProgress (4): 52 kB | 43 kB | 146 kB | 114/136 kB                                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-dependency-tree/3.2.1/maven-dependency-tree-3.2.1.jar (43 kB at 58 kB/s)
-Progress (3): 52 kB | 146 kB | 130/136 kB                                         Downloading from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.jar
-Progress (3): 52 kB | 146 kB | 136 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar (146 kB at 198 kB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
-Progress (3): 52 kB | 136 kB | 7.7/233 kBProgress (3): 52 kB | 136 kB | 16/233 kB Progress (3): 52 kB | 136 kB | 29/233 kBProgress (3): 52 kB | 136 kB | 45/233 kBProgress (3): 52 kB | 136 kB | 61/233 kBProgress (3): 52 kB | 136 kB | 78/233 kBProgress (3): 52 kB | 136 kB | 94/233 kBProgress (3): 52 kB | 136 kB | 111/233 kBProgress (3): 52 kB | 136 kB | 127/233 kBProgress (3): 52 kB | 136 kB | 143/233 kBProgress (3): 52 kB | 136 kB | 160/233 kBProgress (3): 52 kB | 136 kB | 176/233 kBProgress (3): 52 kB | 136 kB | 193/233 kBProgress (3): 52 kB | 136 kB | 209/233 kBProgress (3): 52 kB | 136 kB | 225/233 kBProgress (3): 52 kB | 136 kB | 233 kB                                         Downloaded from central: https://repo.maven.apache.org/maven2/org/vafer/jdependency/2.8.0/jdependency-2.8.0.jar (233 kB at 311 kB/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/aether/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar (136 kB at 181 kB/s)
-Progress (2): 52 kB | 7.7/752 kBProgress (2): 52 kB | 12/752 kB Progress (2): 52 kB | 29/752 kBProgress (2): 52 kB | 45/752 kBProgress (2): 52 kB | 61/752 kBProgress (2): 52 kB | 78/752 kBProgress (2): 52 kB | 94/752 kBProgress (2): 52 kB | 111/752 kBProgress (2): 52 kB | 127/752 kBProgress (2): 52 kB | 143/752 kBProgress (2): 52 kB | 160/752 kBProgress (2): 52 kB | 176/752 kBProgress (2): 52 kB | 193/752 kBProgress (2): 52 kB | 209/752 kBProgress (2): 52 kB | 225/752 kBProgress (2): 52 kB | 237/752 kBProgress (2): 52 kB | 253/752 kBProgress (2): 52 kB | 269/752 kBProgress (2): 52 kB | 286/752 kBProgress (2): 52 kB | 302/752 kBProgress (2): 52 kB | 319/752 kBProgress (2): 52 kB | 335/752 kBProgress (2): 52 kB | 351/752 kBProgress (2): 52 kB | 368/752 kBProgress (2): 52 kB | 384/752 kBProgress (2): 52 kB | 400/752 kBProgress (2): 52 kB | 417/752 kBProgress (2): 52 kB | 433/752 kBProgress (2): 52 kB | 450/752 kBProgress (2): 52 kB | 466/752 kBProgress (2): 52 kB | 482/752 kBProgress (2): 52 kB | 499/752 kBProgress (2): 52 kB | 515/752 kBProgress (2): 52 kB | 532/752 kBProgress (2): 52 kB | 548/752 kBProgress (2): 52 kB | 564/752 kBProgress (2): 52 kB | 581/752 kBProgress (2): 52 kB | 597/752 kBProgress (2): 52 kB | 613/752 kBProgress (2): 52 kB | 630/752 kBProgress (2): 52 kB | 646/752 kBProgress (2): 52 kB | 663/752 kBProgress (2): 52 kB | 679/752 kBProgress (2): 52 kB | 695/752 kBProgress (2): 52 kB | 712/752 kBProgress (2): 52 kB | 712/752 kBProgress (2): 52 kB | 728/752 kBProgress (2): 52 kB | 745/752 kBProgress (2): 52 kB | 752 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar (752 kB at 806 kB/s)
-Progress (2): 52 kB | 7.7/484 kBProgress (2): 52 kB | 16/484 kB Progress (2): 52 kB | 32/484 kBProgress (2): 52 kB | 49/484 kBProgress (2): 52 kB | 65/484 kBProgress (2): 52 kB | 81/484 kBProgress (2): 52 kB | 98/484 kBProgress (2): 52 kB | 114/484 kBProgress (2): 52 kB | 131/484 kBProgress (2): 52 kB | 147/484 kBProgress (2): 52 kB | 163/484 kBProgress (2): 52 kB | 180/484 kBProgress (2): 52 kB | 196/484 kBProgress (2): 52 kB | 212/484 kBProgress (2): 52 kB | 229/484 kBProgress (2): 52 kB | 245/484 kBProgress (2): 52 kB | 262/484 kBProgress (2): 52 kB | 278/484 kBProgress (2): 52 kB | 294/484 kBProgress (2): 52 kB | 311/484 kBProgress (2): 52 kB | 327/484 kBProgress (2): 52 kB | 344/484 kBProgress (2): 52 kB | 360/484 kBProgress (2): 52 kB | 364/484 kBProgress (2): 52 kB | 381/484 kBProgress (2): 52 kB | 397/484 kBProgress (2): 52 kB | 413/484 kBProgress (2): 52 kB | 430/484 kBProgress (2): 52 kB | 446/484 kBProgress (2): 52 kB | 463/484 kBProgress (2): 52 kB | 479/484 kBProgress (2): 52 kB | 484 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar (52 kB at 39 kB/s)
-Downloaded from central: https://repo.maven.apache.org/maven2/commons-io/commons-io/2.13.0/commons-io-2.13.0.jar (484 kB at 366 kB/s)
-[INFO] Attaching agents: []
-
-  .   ____          _            __ _ _
- /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
- \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
-  '  |____| .__|_| |_|_| |_\__, | / / / /
- =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::                (v3.2.3)
-
-2026-05-11T09:37:39.271+05:30  INFO 3696 --- [courier_management] [  restartedMain] j.CourierManagementApplication           : Starting CourierManagementApplication using Java 17.0.11 with PID 3696 (D:\GitClones_2\courier_management_spring-boot\target\classes started by SMOHAMMEDTAJ in D:\GitClones_2\courier_management_spring-boot)
-2026-05-11T09:37:39.274+05:30  INFO 3696 --- [courier_management] [  restartedMain] j.CourierManagementApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-05-11T09:37:39.275+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.boot.SpringApplication               : Loading source class jpapackage.CourierManagementApplication
-2026-05-11T09:37:39.353+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.b.devtools.restart.ChangeableUrls    : Matching URLs for reloading : [file:/D:/GitClones_2/courier_management_spring-boot/target/classes/]
-2026-05-11T09:37:39.353+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.b.d.settings.DevToolsSettings        : Included patterns for restart : []
-2026-05-11T09:37:39.354+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.b.d.settings.DevToolsSettings        : Excluded patterns for restart : [/spring-boot-starter-[\w-]+/, /spring-boot/(bin|build|out)/, /spring-boot-starter/(bin|build|out)/, /spring-boot-devtools/(bin|build|out)/, /spring-boot-actuator/(bin|build|out)/, /spring-boot-autoconfigure/(bin|build|out)/]
-2026-05-11T09:37:39.354+05:30  INFO 3696 --- [courier_management] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-05-11T09:37:39.354+05:30  INFO 3696 --- [courier_management] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-05-11T09:37:39.355+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@52e5abee
-2026-05-11T09:37:40.110+05:30  INFO 3696 --- [courier_management] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-05-11T09:37:40.147+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.b.a.AutoConfigurationPackages        : @EnableAutoConfiguration was declared on a class in the package 'jpapackage'. Automatic @Repository and @Entity scanning is enabled.
-2026-05-11T09:37:40.204+05:30  INFO 3696 --- [courier_management] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 6 JPA repository interfaces.
-2026-05-11T09:37:40.513+05:30  WARN 3696 --- [courier_management] [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
-2026-05-11T09:37:40.561+05:30  INFO 3696 --- [courier_management] [  restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
-2026-05-11T09:37:40.859+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\SMOHAMMEDTAJ\.m2\repository\org\springframework\boot\spring-boot\3.2.3\spring-boot-3.2.3.jar
-2026-05-11T09:37:40.870+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : Code archive: C:\Users\SMOHAMMEDTAJ\.m2\repository\org\springframework\boot\spring-boot\3.2.3\spring-boot-3.2.3.jar
-2026-05-11T09:37:40.871+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] .s.b.w.e.t.TomcatServletWebServerFactory : None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
-2026-05-11T09:37:40.909+05:30  INFO 3696 --- [courier_management] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9090 (http)
-2026-05-11T09:37:40.920+05:30  INFO 3696 --- [courier_management] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-05-11T09:37:40.920+05:30  INFO 3696 --- [courier_management] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2026-05-11T09:37:40.974+05:30  INFO 3696 --- [courier_management] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-05-11T09:37:40.975+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
-2026-05-11T09:37:40.977+05:30  INFO 3696 --- [courier_management] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1621 ms
-2026-05-11T09:37:41.096+05:30  INFO 3696 --- [courier_management] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-05-11T09:37:41.221+05:30  INFO 3696 --- [courier_management] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
-2026-05-11T09:37:41.299+05:30  INFO 3696 --- [courier_management] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-05-11T09:37:41.789+05:30  INFO 3696 --- [courier_management] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-05-11T09:37:41.841+05:30  INFO 3696 --- [courier_management] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : courier_managment - Starting...
-2026-05-11T09:37:42.284+05:30  INFO 3696 --- [courier_management] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : courier_managment - Added connection com.mysql.cj.jdbc.ConnectionImpl@159b85ae
-2026-05-11T09:37:42.297+05:30  INFO 3696 --- [courier_management] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : courier_managment - Start completed.
-2026-05-11T09:37:44.274+05:30  INFO 3696 --- [courier_management] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-05-11T09:37:44.362+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] org.hibernate.SQL                        : alter table delivery_places modify column id bigint not null auto_increment
-2026-05-11T09:41:23.227+05:30  INFO 3696 --- [courier_management] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-05-11T09:41:24.151+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: springSecurityFilterChain urls=[/*] order=-100, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105, jwtAuthenticationFilter urls=[/*] order=2147483647
-2026-05-11T09:41:24.152+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], messageDispatcherServlet urls=[/services/*]
-2026-05-11T09:41:24.239+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.b.w.s.f.OrderedRequestContextFilter  : Filter 'requestContextFilter' configured for use
-2026-05-11T09:41:24.252+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] s.b.w.s.f.OrderedCharacterEncodingFilter : Filter 'characterEncodingFilter' configured for use
-2026-05-11T09:41:24.253+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] .DelegatingFilterProxyRegistrationBean$1 : Filter 'springSecurityFilterChain' configured for use
-2026-05-11T09:41:24.254+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.b.w.s.f.OrderedFormContentFilter     : Filter 'formContentFilter' configured for use
-2026-05-11T09:41:25.265+05:30  WARN 3696 --- [courier_management] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-05-11T09:41:25.866+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 21 mappings in 'requestMappingHandlerMapping'
-2026-05-11T09:41:26.107+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-caem to securuty
-2026-05-11T09:41:26.249+05:30  INFO 3696 --- [courier_management] [  restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7abb07df, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6dae64d6, org.springframework.security.web.context.SecurityContextHolderFilter@d33ff82, org.springframework.security.web.header.HeaderWriterFilter@3a9f82e5, org.springframework.web.filter.CorsFilter@6a4c8b0f, org.springframework.security.web.authentication.logout.LogoutFilter@3c79e558, jpapackage.security.JwtAuthenticationFilter@34d5d0dc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13cfeaf9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e2c9635, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75ed9f68, org.springframework.security.web.session.SessionManagementFilter@5618ec89, org.springframework.security.web.access.ExceptionTranslationFilter@604b43cf, org.springframework.security.web.access.intercept.AuthorizationFilter@cf37e20]
-2026-05-11T09:41:26.450+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2026-05-11T09:41:26.579+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
-2026-05-11T09:41:27.346+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.b.d.livereload.LiveReloadServer      : Starting live reload server on port 35729
-2026-05-11T09:41:27.452+05:30  INFO 3696 --- [courier_management] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-05-11T09:41:27.909+05:30  INFO 3696 --- [courier_management] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9090 (http) with context path ''
-2026-05-11T09:41:27.957+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
-
-
-============================
-CONDITIONS EVALUATION REPORT
-============================
-
-
-Positive matches:
------------------
-
-   AopAutoConfiguration matched:
-      - @ConditionalOnProperty (spring.aop.auto=true) matched (OnPropertyCondition)
-
-   AopAutoConfiguration.AspectJAutoProxyingConfiguration matched:
-      - @ConditionalOnClass found required class 'org.aspectj.weaver.Advice' (OnClassCondition)
-
-   AopAutoConfiguration.AspectJAutoProxyingConfiguration.CglibAutoProxyConfiguration matched:
-      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
-
-   ApplicationAvailabilityAutoConfiguration#applicationAvailability matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.availability.ApplicationAvailability; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   DataSourceAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
-      - @ConditionalOnMissingBean (types: io.r2dbc.spi.ConnectionFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   DataSourceAutoConfiguration.PooledDataSourceConfiguration matched:
-      - AnyNestedCondition 1 matched 1 did not; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.PooledDataSourceAvailable PooledDataSource found supported DataSource; NestedCondition on DataSourceAutoConfiguration.PooledDataSourceCondition.ExplicitType @ConditionalOnProperty (spring.datasource.type) did not find property 'type' (DataSourceAutoConfiguration.PooledDataSourceCondition)
-      - @ConditionalOnMissingBean (types: javax.sql.DataSource,javax.sql.XADataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   DataSourceAutoConfiguration.PooledDataSourceConfiguration#jdbcConnectionDetails matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.jdbc.JdbcConnectionDetails; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   DataSourceConfiguration.Hikari matched:
-      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
-      - @ConditionalOnProperty (spring.datasource.type=com.zaxxer.hikari.HikariDataSource) matched (OnPropertyCondition)
-      - @ConditionalOnMissingBean (types: javax.sql.DataSource; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   DataSourceInitializationConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.jdbc.datasource.init.DatabasePopulator' (OnClassCondition)
-      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.sql.init.SqlDataSourceScriptDatabaseInitializer,org.springframework.boot.autoconfigure.sql.init.SqlR2dbcScriptDatabaseInitializer; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   DataSourceJmxConfiguration matched:
-      - @ConditionalOnProperty (spring.jmx.enabled=true) matched (OnPropertyCondition)
-
-   DataSourceJmxConfiguration.Hikari matched:
-      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
-      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource' (OnBeanCondition)
-
-   DataSourcePoolMetadataProvidersConfiguration.HikariPoolDataSourceMetadataProviderConfiguration matched:
-      - @ConditionalOnClass found required class 'com.zaxxer.hikari.HikariDataSource' (OnClassCondition)
-
-   DataSourceTransactionManagerAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'org.springframework.jdbc.core.JdbcTemplate', 'org.springframework.transaction.TransactionManager' (OnClassCondition)
-
-   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration matched:
-      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource' (OnBeanCondition)
-
-   DevToolsDataSourceAutoConfiguration matched:
-      - Devtools devtools enabled. (OnEnabledDevToolsCondition)
-      - DevTools DataSource Condition found auto-configured DataSource (DevToolsDataSourceAutoConfiguration.DevToolsDataSourceCondition)
-
-   DevToolsDataSourceAutoConfiguration.DatabaseShutdownExecutorEntityManagerFactoryDependsOnPostProcessor matched:
-      - @ConditionalOnClass found required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
-      - @ConditionalOnBean (types: org.springframework.orm.jpa.AbstractEntityManagerFactoryBean; SearchStrategy: all) found bean '&entityManagerFactory' (OnBeanCondition)
-
-   DispatcherServletAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-
-   DispatcherServletAutoConfiguration.DispatcherServletConfiguration matched:
-      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
-      - Default DispatcherServlet did not find dispatcher servlet beans (DispatcherServletAutoConfiguration.DefaultDispatcherServletCondition)
-
-   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration matched:
-      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRegistration' (OnClassCondition)
-      - DispatcherServlet Registration did not find servlet registration bean (DispatcherServletAutoConfiguration.DispatcherServletRegistrationCondition)
-
-   DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration#dispatcherServletRegistration matched:
-      - @ConditionalOnBean (names: dispatcherServlet types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet' (OnBeanCondition)
-
-   EmbeddedWebServerFactoryCustomizerAutoConfiguration matched:
-      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
-      - @ConditionalOnWarDeployment the application is not deployed as a WAR file. (OnWarDeploymentCondition)
-
-   EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration matched:
-      - @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
-
-   ErrorMvcAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-
-   ErrorMvcAutoConfiguration#basicErrorController matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorController; SearchStrategy: current) did not find any beans (OnBeanCondition)
-
-   ErrorMvcAutoConfiguration#errorAttributes matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.error.ErrorAttributes; SearchStrategy: current) did not find any beans (OnBeanCondition)
-
-   ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration#conventionErrorViewResolver matched:
-      - @ConditionalOnBean (types: org.springframework.web.servlet.DispatcherServlet; SearchStrategy: all) found bean 'dispatcherServlet'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.servlet.error.ErrorViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration matched:
-      - @ConditionalOnProperty (server.error.whitelabel.enabled) matched (OnPropertyCondition)
-      - ErrorTemplate Missing did not find error template view (ErrorMvcAutoConfiguration.ErrorTemplateMissingCondition)
-
-   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#beanNameViewResolver matched:
-      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration#defaultErrorView matched:
-      - @ConditionalOnMissingBean (names: error; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   GenericCacheConfiguration matched:
-      - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration automatic cache type (CacheCondition)
-
-   HibernateJpaAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean', 'jakarta.persistence.EntityManager', 'org.hibernate.engine.spi.SessionImplementor' (OnClassCondition)
-
-   HibernateJpaConfiguration matched:
-      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource' (OnBeanCondition)
-
-   HttpEncodingAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.web.filter.CharacterEncodingFilter' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-      - @ConditionalOnProperty (server.servlet.encoding.enabled) matched (OnPropertyCondition)
-
-   HttpEncodingAutoConfiguration#characterEncodingFilter matched:
-      - @ConditionalOnMissingBean (types: org.springframework.web.filter.CharacterEncodingFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   HttpMessageConvertersAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.http.converter.HttpMessageConverter' (OnClassCondition)
-      - NoneNestedConditions 0 matched 1 did not; NestedCondition on HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (HttpMessageConvertersAutoConfiguration.NotReactiveWebApplicationCondition)
-
-   HttpMessageConvertersAutoConfiguration#messageConverters matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.http.HttpMessageConverters; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.http.converter.StringHttpMessageConverter' (OnClassCondition)
-
-   HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration#stringHttpMessageConverter matched:
-      - @ConditionalOnMissingBean (types: org.springframework.http.converter.StringHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JacksonAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
-
-   JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
-
-   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
-
-   JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration#jacksonObjectMapperBuilder matched:
-      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.Jackson2ObjectMapperBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JacksonAutoConfiguration.JacksonObjectMapperConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.http.converter.json.Jackson2ObjectMapperBuilder' (OnClassCondition)
-
-   JacksonAutoConfiguration.JacksonObjectMapperConfiguration#jacksonObjectMapper matched:
-      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JacksonAutoConfiguration.ParameterNamesModuleConfiguration matched:
-      - @ConditionalOnClass found required class 'com.fasterxml.jackson.module.paramnames.ParameterNamesModule' (OnClassCondition)
-
-   JacksonAutoConfiguration.ParameterNamesModuleConfiguration#parameterNamesModule matched:
-      - @ConditionalOnMissingBean (types: com.fasterxml.jackson.module.paramnames.ParameterNamesModule; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration matched:
-      - @ConditionalOnClass found required class 'com.fasterxml.jackson.databind.ObjectMapper' (OnClassCondition)
-      - @ConditionalOnProperty (spring.mvc.converters.preferred-json-mapper=jackson) matched (OnPropertyCondition)
-      - @ConditionalOnBean (types: com.fasterxml.jackson.databind.ObjectMapper; SearchStrategy: all) found bean 'jacksonObjectMapper' (OnBeanCondition)
-
-   JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration#mappingJackson2HttpMessageConverter matched:
-      - @ConditionalOnMissingBean (types: org.springframework.http.converter.json.MappingJackson2HttpMessageConverter ignored: org.springframework.hateoas.server.mvc.TypeConstrainedMappingJackson2HttpMessageConverter,org.springframework.data.rest.webmvc.alps.AlpsJsonHttpMessageConverter; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JdbcClientAutoConfiguration matched:
-      - @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate; SearchStrategy: all) found a single bean 'namedParameterJdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.simple.JdbcClient; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JdbcTemplateAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.core.JdbcTemplate' (OnClassCondition)
-      - @ConditionalOnSingleCandidate (types: javax.sql.DataSource; SearchStrategy: all) found a single bean 'dataSource' (OnBeanCondition)
-
-   JdbcTemplateConfiguration matched:
-      - @ConditionalOnMissingBean (types: org.springframework.jdbc.core.JdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JpaBaseConfiguration#entityManagerFactory matched:
-      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,jakarta.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JpaBaseConfiguration#entityManagerFactoryBuilder matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JpaBaseConfiguration#jpaVendorAdapter matched:
-      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.JpaVendorAdapter; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JpaBaseConfiguration#transactionManager matched:
-      - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JpaBaseConfiguration.JpaWebConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-      - @ConditionalOnProperty (spring.jpa.open-in-view=true) matched (OnPropertyCondition)
-      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor,org.springframework.orm.jpa.support.OpenEntityManagerInViewFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JpaBaseConfiguration.PersistenceManagedTypesConfiguration matched:
-      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean,jakarta.persistence.EntityManagerFactory; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JpaBaseConfiguration.PersistenceManagedTypesConfiguration#persistenceManagedTypes matched:
-      - @ConditionalOnMissingBean (types: org.springframework.orm.jpa.persistenceunit.PersistenceManagedTypes; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JpaRepositoriesAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.data.jpa.repository.JpaRepository' (OnClassCondition)
-      - @ConditionalOnProperty (spring.data.jpa.repositories.enabled=true) matched (OnPropertyCondition)
-      - @ConditionalOnBean (types: javax.sql.DataSource; SearchStrategy: all) found bean 'dataSource'; @ConditionalOnMissingBean (types: org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean,org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   JtaAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'jakarta.transaction.Transaction' (OnClassCondition)
-      - @ConditionalOnProperty (spring.jta.enabled) matched (OnPropertyCondition)
-
-   LifecycleAutoConfiguration#defaultLifecycleProcessor matched:
-      - @ConditionalOnMissingBean (names: lifecycleProcessor; SearchStrategy: current) did not find any beans (OnBeanCondition)
-
-   LocalDevToolsAutoConfiguration matched:
-      - Initialized Restarter Condition available and initialized (OnInitializedRestarterCondition)
-
-   LocalDevToolsAutoConfiguration.LiveReloadConfiguration matched:
-      - @ConditionalOnProperty (spring.devtools.livereload.enabled) matched (OnPropertyCondition)
-
-   LocalDevToolsAutoConfiguration.LiveReloadConfiguration#liveReloadServer matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.devtools.livereload.LiveReloadServer; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   LocalDevToolsAutoConfiguration.RestartConfiguration matched:
-      - @ConditionalOnProperty (spring.devtools.restart.enabled) matched (OnPropertyCondition)
-
-   LocalDevToolsAutoConfiguration.RestartConfiguration#classPathFileSystemWatcher matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   LocalDevToolsAutoConfiguration.RestartConfiguration#classPathRestartStrategy matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.devtools.classpath.ClassPathRestartStrategy; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   LocalDevToolsAutoConfiguration.RestartConfiguration#conditionEvaluationDeltaLoggingListener matched:
-      - @ConditionalOnProperty (spring.devtools.restart.log-condition-evaluation-delta) matched (OnPropertyCondition)
-
-   MultipartAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.multipart.support.StandardServletMultipartResolver', 'jakarta.servlet.MultipartConfigElement' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-      - @ConditionalOnProperty (spring.servlet.multipart.enabled) matched (OnPropertyCondition)
-
-   MultipartAutoConfiguration#multipartConfigElement matched:
-      - @ConditionalOnMissingBean (types: jakarta.servlet.MultipartConfigElement; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   MultipartAutoConfiguration#multipartResolver matched:
-      - @ConditionalOnMissingBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   NamedParameterJdbcTemplateConfiguration matched:
-      - @ConditionalOnSingleCandidate (types: org.springframework.jdbc.core.JdbcTemplate; SearchStrategy: all) found a single bean 'jdbcTemplate'; @ConditionalOnMissingBean (types: org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   NoOpCacheConfiguration matched:
-      - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration automatic cache type (CacheCondition)
-
-   PersistenceExceptionTranslationAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor' (OnClassCondition)
-
-   PersistenceExceptionTranslationAutoConfiguration#persistenceExceptionTranslationPostProcessor matched:
-      - @ConditionalOnProperty (spring.dao.exceptiontranslation.enabled) matched (OnPropertyCondition)
-      - @ConditionalOnMissingBean (types: org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   PropertyPlaceholderAutoConfiguration#propertySourcesPlaceholderConfigurer matched:
-      - @ConditionalOnMissingBean (types: org.springframework.context.support.PropertySourcesPlaceholderConfigurer; SearchStrategy: current) did not find any beans (OnBeanCondition)
-
-   RestClientAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.web.client.RestClient' (OnClassCondition)
-      - NoneNestedConditions 0 matched 1 did not; NestedCondition on NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (NotReactiveWebApplicationCondition)
-
-   RestClientAutoConfiguration#httpMessageConvertersRestClientCustomizer matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.client.HttpMessageConvertersRestClientCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   RestClientAutoConfiguration#restClientBuilder matched:
-      - @ConditionalOnMissingBean (types: org.springframework.web.client.RestClient$Builder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   RestClientAutoConfiguration#restClientBuilderConfigurer matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.client.RestClientBuilderConfigurer; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   RestClientAutoConfiguration#restClientSsl matched:
-      - @ConditionalOnBean (types: org.springframework.boot.ssl.SslBundles; SearchStrategy: all) found bean 'sslBundleRegistry'; @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.web.client.RestClientSsl; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   RestTemplateAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.web.client.RestTemplate' (OnClassCondition)
-      - NoneNestedConditions 0 matched 1 did not; NestedCondition on NotReactiveWebApplicationCondition.ReactiveWebApplication did not find reactive web application classes (NotReactiveWebApplicationCondition)
-
-   RestTemplateAutoConfiguration#restTemplateBuilder matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.web.client.RestTemplateBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   SecurityAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.security.authentication.DefaultAuthenticationEventPublisher' (OnClassCondition)
-
-   SecurityAutoConfiguration#authenticationEventPublisher matched:
-      - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationEventPublisher; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   SecurityFilterAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer', 'org.springframework.security.config.http.SessionCreationPolicy' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-
-   SecurityFilterAutoConfiguration#securityFilterChainRegistration matched:
-      - @ConditionalOnBean (names: springSecurityFilterChain; SearchStrategy: all) found bean 'springSecurityFilterChain' (OnBeanCondition)
-
-   ServletWebServerFactoryAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'jakarta.servlet.ServletRequest' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-
-   ServletWebServerFactoryAutoConfiguration#tomcatServletWebServerFactoryCustomizer matched:
-      - @ConditionalOnClass found required class 'org.apache.catalina.startup.Tomcat' (OnClassCondition)
-
-   ServletWebServerFactoryConfiguration.EmbeddedTomcat matched:
-      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.apache.catalina.startup.Tomcat', 'org.apache.coyote.UpgradeProtocol' (OnClassCondition)
-      - @ConditionalOnMissingBean (types: org.springframework.boot.web.servlet.server.ServletWebServerFactory; SearchStrategy: current) did not find any beans (OnBeanCondition)
-
-   SimpleCacheConfiguration matched:
-      - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration automatic cache type (CacheCondition)
-
-   SpringBootWebSecurityConfiguration matched:
-      - found 'session' scope (OnWebApplicationCondition)
-
-   SpringDataWebAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'org.springframework.data.web.PageableHandlerMethodArgumentResolver', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-      - @ConditionalOnMissingBean (types: org.springframework.data.web.PageableHandlerMethodArgumentResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   SpringDataWebAutoConfiguration#pageableCustomizer matched:
-      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   SpringDataWebAutoConfiguration#sortCustomizer matched:
-      - @ConditionalOnMissingBean (types: org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   SqlInitializationAutoConfiguration matched:
-      - @ConditionalOnProperty (spring.sql.init.enabled) matched (OnPropertyCondition)
-      - NoneNestedConditions 0 matched 1 did not; NestedCondition on SqlInitializationAutoConfiguration.SqlInitializationModeCondition.ModeIsNever @ConditionalOnProperty (spring.sql.init.mode=never) did not find property 'mode' (SqlInitializationAutoConfiguration.SqlInitializationModeCondition)
-
-   SslAutoConfiguration#sslBundleRegistry matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.ssl.SslBundleRegistry,org.springframework.boot.ssl.SslBundles; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   TaskExecutionAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor' (OnClassCondition)
-
-   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilder matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
-
-   TaskExecutorConfigurations.TaskExecutorBuilderConfiguration#taskExecutorBuilder matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   TaskExecutorConfigurations.TaskExecutorConfiguration matched:
-      - @ConditionalOnMissingBean (types: java.util.concurrent.Executor; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutor matched:
-      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
-
-   TaskExecutorConfigurations.ThreadPoolTaskExecutorBuilderConfiguration#threadPoolTaskExecutorBuilder matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskExecutorBuilder,org.springframework.boot.task.ThreadPoolTaskExecutorBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   TaskSchedulingAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler' (OnClassCondition)
-
-   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilder matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-      - @ConditionalOnThreading found PLATFORM (OnThreadingCondition)
-
-   TaskSchedulingConfigurations.TaskSchedulerBuilderConfiguration#taskSchedulerBuilder matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   TaskSchedulingConfigurations.ThreadPoolTaskSchedulerBuilderConfiguration#threadPoolTaskSchedulerBuilder matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.task.TaskSchedulerBuilder,org.springframework.boot.task.ThreadPoolTaskSchedulerBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   TransactionAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
-
-   TransactionAutoConfiguration.EnableTransactionManagementConfiguration matched:
-      - @ConditionalOnBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found bean 'transactionManager'; @ConditionalOnMissingBean (types: org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration matched:
-      - @ConditionalOnProperty (spring.aop.proxy-target-class=true) matched (OnPropertyCondition)
-
-   TransactionAutoConfiguration.TransactionTemplateConfiguration matched:
-      - @ConditionalOnSingleCandidate (types: org.springframework.transaction.PlatformTransactionManager; SearchStrategy: all) found a single bean 'transactionManager' (OnBeanCondition)
-
-   TransactionAutoConfiguration.TransactionTemplateConfiguration#transactionTemplate matched:
-      - @ConditionalOnMissingBean (types: org.springframework.transaction.support.TransactionOperations; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   TransactionManagerCustomizationAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.transaction.PlatformTransactionManager' (OnClassCondition)
-
-   TransactionManagerCustomizationAutoConfiguration#platformTransactionManagerCustomizers matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   WebMvcAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'org.springframework.web.servlet.DispatcherServlet', 'org.springframework.web.servlet.config.annotation.WebMvcConfigurer' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   WebMvcAutoConfiguration#formContentFilter matched:
-      - @ConditionalOnProperty (spring.mvc.formcontent.filter.enabled) matched (OnPropertyCondition)
-      - @ConditionalOnMissingBean (types: org.springframework.web.filter.FormContentFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   WebMvcAutoConfiguration.EnableWebMvcConfiguration#flashMapManager matched:
-      - @ConditionalOnMissingBean (names: flashMapManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   WebMvcAutoConfiguration.EnableWebMvcConfiguration#localeResolver matched:
-      - @ConditionalOnMissingBean (names: localeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   WebMvcAutoConfiguration.EnableWebMvcConfiguration#themeResolver matched:
-      - @ConditionalOnMissingBean (names: themeResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#defaultViewResolver matched:
-      - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.InternalResourceViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#requestContextFilter matched:
-      - @ConditionalOnMissingBean (types: org.springframework.web.context.request.RequestContextListener,org.springframework.web.filter.RequestContextFilter; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#viewResolver matched:
-      - @ConditionalOnBean (types: org.springframework.web.servlet.ViewResolver; SearchStrategy: all) found beans 'defaultViewResolver', 'beanNameViewResolver', 'mvcViewResolver'; @ConditionalOnMissingBean (names: viewResolver types: org.springframework.web.servlet.view.ContentNegotiatingViewResolver; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   WebServiceTemplateAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'org.springframework.ws.client.core.WebServiceTemplate', 'org.springframework.oxm.Unmarshaller', 'org.springframework.oxm.Marshaller' (OnClassCondition)
-
-   WebServiceTemplateAutoConfiguration#webServiceTemplateBuilder matched:
-      - @ConditionalOnMissingBean (types: org.springframework.boot.webservices.client.WebServiceTemplateBuilder; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   WebServicesAutoConfiguration matched:
-      - @ConditionalOnClass found required class 'org.springframework.ws.transport.http.MessageDispatcherServlet' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-      - @ConditionalOnMissingBean (types: org.springframework.ws.config.annotation.WsConfigurationSupport; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   WebSocketServletAutoConfiguration matched:
-      - @ConditionalOnClass found required classes 'jakarta.servlet.Servlet', 'jakarta.websocket.server.ServerContainer' (OnClassCondition)
-      - found 'session' scope (OnWebApplicationCondition)
-
-   WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration matched:
-      - @ConditionalOnClass found required classes 'org.apache.catalina.startup.Tomcat', 'org.apache.tomcat.websocket.server.WsSci' (OnClassCondition)
-
-   WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration#websocketServletWebServerCustomizer matched:
-      - @ConditionalOnMissingBean (names: websocketServletWebServerCustomizer; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-
-Negative matches:
------------------
-
-   ActiveMQAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'jakarta.jms.ConnectionFactory' (OnClassCondition)
-
-   AopAutoConfiguration.AspectJAutoProxyingConfiguration.JdkDynamicAutoProxyConfiguration:
-      Did not match:
-         - @ConditionalOnProperty (spring.aop.proxy-target-class=false) did not find property 'proxy-target-class' (OnPropertyCondition)
-
-   AopAutoConfiguration.ClassProxyingConfiguration:
-      Did not match:
-         - @ConditionalOnMissingClass found unwanted class 'org.aspectj.weaver.Advice' (OnClassCondition)
-
-   ArtemisAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'jakarta.jms.ConnectionFactory' (OnClassCondition)
-
-   BatchAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.batch.core.launch.JobLauncher' (OnClassCondition)
-
-   Cache2kCacheConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.cache2k.Cache2kBuilder' (OnClassCondition)
-
-   CacheAutoConfiguration:
-      Did not match:
-         - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans of type org.springframework.cache.interceptor.CacheAspectSupport (OnBeanCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
-
-   CacheAutoConfiguration.CacheManagerEntityManagerFactoryDependsOnPostProcessor:
-      Did not match:
-         - Ancestor org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration did not match (ConditionEvaluationReport.AncestorsMatchedCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean' (OnClassCondition)
-
-   CaffeineCacheConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.github.benmanes.caffeine.cache.Caffeine' (OnClassCondition)
-
-   CassandraAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
-
-   CassandraDataAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
-
-   CassandraReactiveDataAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
-
-   CassandraReactiveRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.data.cassandra.ReactiveSession' (OnClassCondition)
-
-   CassandraRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.datastax.oss.driver.api.core.CqlSession' (OnClassCondition)
-
-   ClientHttpConnectorAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
-
-   CodecsAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
-
-   CouchbaseAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
-
-   CouchbaseCacheConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
-
-   CouchbaseDataAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Bucket' (OnClassCondition)
-
-   CouchbaseReactiveDataAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
-
-   CouchbaseReactiveRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Cluster' (OnClassCondition)
-
-   CouchbaseRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.couchbase.client.java.Bucket' (OnClassCondition)
-
-   DataSourceAutoConfiguration.EmbeddedDatabaseConfiguration:
-      Did not match:
-         - EmbeddedDataSource spring.datasource.url is set (DataSourceAutoConfiguration.EmbeddedDatabaseCondition)
-
-   DataSourceCheckpointRestoreConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.crac.Resource' (OnClassCondition)
-
-   DataSourceConfiguration.Dbcp2:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
-
-   DataSourceConfiguration.Generic:
-      Did not match:
-         - @ConditionalOnProperty (spring.datasource.type) did not find property 'spring.datasource.type' (OnPropertyCondition)
-
-   DataSourceConfiguration.OracleUcp:
-      Did not match:
-         - @ConditionalOnClass did not find required classes 'oracle.ucp.jdbc.PoolDataSourceImpl', 'oracle.jdbc.OracleConnection' (OnClassCondition)
-
-   DataSourceConfiguration.Tomcat:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
-
-   DataSourceJmxConfiguration.TomcatDataSourceJmxConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSourceProxy' (OnClassCondition)
-
-   DataSourcePoolMetadataProvidersConfiguration.CommonsDbcp2PoolDataSourceMetadataProviderConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.apache.commons.dbcp2.BasicDataSource' (OnClassCondition)
-
-   DataSourcePoolMetadataProvidersConfiguration.OracleUcpPoolDataSourceMetadataProviderConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required classes 'oracle.ucp.jdbc.PoolDataSource', 'oracle.jdbc.OracleConnection' (OnClassCondition)
-
-   DataSourcePoolMetadataProvidersConfiguration.TomcatDataSourcePoolMetadataProviderConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.apache.tomcat.jdbc.pool.DataSource' (OnClassCondition)
-
-   DataSourceTransactionManagerAutoConfiguration.JdbcTransactionManagerConfiguration#transactionManager:
-      Did not match:
-         - @ConditionalOnMissingBean (types: org.springframework.transaction.TransactionManager; SearchStrategy: all) found beans of type 'org.springframework.transaction.TransactionManager' transactionManager (OnBeanCondition)
-
-   DevToolsR2dbcAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
-
-   DispatcherServletAutoConfiguration.DispatcherServletConfiguration#multipartResolver:
-      Did not match:
-         - @ConditionalOnBean (types: org.springframework.web.multipart.MultipartResolver; SearchStrategy: all) did not find any beans of type org.springframework.web.multipart.MultipartResolver (OnBeanCondition)
-
-   ElasticsearchClientAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'co.elastic.clients.elasticsearch.ElasticsearchClient' (OnClassCondition)
-
-   ElasticsearchDataAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.client.elc.ElasticsearchTemplate' (OnClassCondition)
-
-   ElasticsearchRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.repository.ElasticsearchRepository' (OnClassCondition)
-
-   ElasticsearchRestClientAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.elasticsearch.client.RestClientBuilder' (OnClassCondition)
-
-   EmbeddedLdapAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.unboundid.ldap.listener.InMemoryDirectoryServer' (OnClassCondition)
-
-   EmbeddedWebServerFactoryCustomizerAutoConfiguration.JettyWebServerFactoryCustomizerConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.ee10.webapp.WebAppContext' (OnClassCondition)
-
-   EmbeddedWebServerFactoryCustomizerAutoConfiguration.NettyWebServerFactoryCustomizerConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'reactor.netty.http.server.HttpServer' (OnClassCondition)
-
-   EmbeddedWebServerFactoryCustomizerAutoConfiguration.TomcatWebServerFactoryCustomizerConfiguration#tomcatVirtualThreadsProtocolHandlerCustomizer:
-      Did not match:
-         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
-
-   EmbeddedWebServerFactoryCustomizerAutoConfiguration.UndertowWebServerFactoryCustomizerConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
-
-   ErrorWebFluxAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
-
-   FlywayAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.flywaydb.core.Flyway' (OnClassCondition)
-
-   FreeMarkerAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'freemarker.template.Configuration' (OnClassCondition)
-
-   GraphQlAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
-
-   GraphQlQueryByExampleAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
-
-   GraphQlQuerydslAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.querydsl.core.Query' (OnClassCondition)
-
-   GraphQlRSocketAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
-
-   GraphQlReactiveQueryByExampleAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
-
-   GraphQlReactiveQuerydslAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.querydsl.core.Query' (OnClassCondition)
-
-   GraphQlWebFluxAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
-
-   GraphQlWebFluxSecurityAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
-
-   GraphQlWebMvcAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
-
-   GraphQlWebMvcSecurityAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
-
-   GroovyTemplateAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'groovy.text.markup.MarkupTemplateEngine' (OnClassCondition)
-
-   GsonAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
-
-   GsonHttpMessageConvertersConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.google.gson.Gson' (OnClassCondition)
-
-   H2ConsoleAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.h2.server.web.JakartaWebServlet' (OnClassCondition)
-
-   HazelcastAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
-
-   HazelcastCacheConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
-
-   HazelcastJpaDependencyAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.hazelcast.core.HazelcastInstance' (OnClassCondition)
-
-   HttpHandlerAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.DispatcherHandler' (OnClassCondition)
-
-   HypermediaAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.hateoas.EntityModel' (OnClassCondition)
-
-   InfinispanCacheConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.infinispan.spring.embedded.provider.SpringEmbeddedCacheManager' (OnClassCondition)
-
-   InfluxDbAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.influxdb.InfluxDB' (OnClassCondition)
-
-   IntegrationAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.integration.config.EnableIntegration' (OnClassCondition)
-
-   JCacheCacheConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'javax.cache.Caching' (OnClassCondition)
-
-   JacksonHttpMessageConvertersConfiguration.MappingJackson2XmlHttpMessageConverterConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.fasterxml.jackson.dataformat.xml.XmlMapper' (OnClassCondition)
-
-   JdbcRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.data.jdbc.repository.config.AbstractJdbcConfiguration' (OnClassCondition)
-
-   JerseyAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.glassfish.jersey.server.spring.SpringComponentProvider' (OnClassCondition)
-
-   JmsAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'jakarta.jms.Message' (OnClassCondition)
-
-   JmxAutoConfiguration:
-      Did not match:
-         - @ConditionalOnProperty (spring.jmx.enabled=true) did not find property 'enabled' (OnPropertyCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.jmx.export.MBeanExporter' (OnClassCondition)
-
-   JndiConnectionFactoryAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.jms.core.JmsTemplate' (OnClassCondition)
-
-   JndiDataSourceAutoConfiguration:
-      Did not match:
-         - @ConditionalOnProperty (spring.datasource.jndi-name) did not find property 'jndi-name' (OnPropertyCondition)
-      Matched:
-         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
-
-   JndiJtaConfiguration:
-      Did not match:
-         - @ConditionalOnJndi JNDI environment is not available (OnJndiCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.transaction.jta.JtaTransactionManager' (OnClassCondition)
-
-   JooqAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.jooq.DSLContext' (OnClassCondition)
-
-   JpaRepositoriesAutoConfiguration#entityManagerFactoryBootstrapExecutorCustomizer:
-      Did not match:
-         - AnyNestedCondition 0 matched 2 did not; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.LazyBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=lazy) did not find property 'bootstrap-mode'; NestedCondition on JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition.DeferredBootstrapMode @ConditionalOnProperty (spring.data.jpa.repositories.bootstrap-mode=deferred) did not find property 'bootstrap-mode' (JpaRepositoriesAutoConfiguration.BootstrapExecutorCondition)
-
-   JsonbAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'jakarta.json.bind.Jsonb' (OnClassCondition)
-
-   JsonbHttpMessageConvertersConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'jakarta.json.bind.Jsonb' (OnClassCondition)
-
-   KafkaAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.kafka.core.KafkaTemplate' (OnClassCondition)
-
-   LdapAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.ldap.core.ContextSource' (OnClassCondition)
-
-   LdapRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.data.ldap.repository.LdapRepository' (OnClassCondition)
-
-   LiquibaseAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'liquibase.change.DatabaseChange' (OnClassCondition)
-
-   MailSenderAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'jakarta.mail.internet.MimeMessage' (OnClassCondition)
-
-   MailSenderValidatorAutoConfiguration:
-      Did not match:
-         - @ConditionalOnSingleCandidate did not find required type 'org.springframework.mail.javamail.JavaMailSenderImpl' (OnBeanCondition)
-
-   MessageSourceAutoConfiguration:
-      Did not match:
-         - ResourceBundle did not find bundle with basename messages (MessageSourceAutoConfiguration.ResourceBundleCondition)
-
-   MongoAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
-
-   MongoDataAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
-
-   MongoReactiveAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
-
-   MongoReactiveDataAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
-
-   MongoReactiveRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.mongodb.reactivestreams.client.MongoClient' (OnClassCondition)
-
-   MongoRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.mongodb.client.MongoClient' (OnClassCondition)
-
-   MustacheAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.samskivert.mustache.Mustache' (OnClassCondition)
-
-   Neo4jAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
-
-   Neo4jDataAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
-
-   Neo4jReactiveDataAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
-
-   Neo4jReactiveRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
-
-   Neo4jRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.neo4j.driver.Driver' (OnClassCondition)
-
-   NettyAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'io.netty.util.NettyRuntime' (OnClassCondition)
-
-   OAuth2AuthorizationServerAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.security.oauth2.server.authorization.OAuth2Authorization' (OnClassCondition)
-
-   OAuth2AuthorizationServerJwtAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.security.oauth2.server.authorization.OAuth2Authorization' (OnClassCondition)
-
-   OAuth2ClientAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.security.oauth2.client.registration.ClientRegistration' (OnClassCondition)
-
-   OAuth2ResourceServerAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.security.oauth2.server.resource.authentication.BearerTokenAuthenticationToken' (OnClassCondition)
-
-   ProjectInfoAutoConfiguration#buildProperties:
-      Did not match:
-         - @ConditionalOnResource did not find resource '${spring.info.build.location:classpath:META-INF/build-info.properties}' (OnResourceCondition)
-
-   ProjectInfoAutoConfiguration#gitProperties:
-      Did not match:
-         - GitResource did not find git info at classpath:git.properties (ProjectInfoAutoConfiguration.GitResourceAvailableCondition)
-
-   PulsarAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.apache.pulsar.client.api.PulsarClient' (OnClassCondition)
-
-   PulsarReactiveAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.apache.pulsar.client.api.PulsarClient' (OnClassCondition)
-
-   QuartzAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.quartz.Scheduler' (OnClassCondition)
-
-   R2dbcAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
-
-   R2dbcDataAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.data.r2dbc.core.R2dbcEntityTemplate' (OnClassCondition)
-
-   R2dbcInitializationConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required classes 'io.r2dbc.spi.ConnectionFactory', 'org.springframework.r2dbc.connection.init.DatabasePopulator' (OnClassCondition)
-
-   R2dbcRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'io.r2dbc.spi.ConnectionFactory' (OnClassCondition)
-
-   R2dbcTransactionManagerAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.r2dbc.connection.R2dbcTransactionManager' (OnClassCondition)
-
-   RSocketGraphQlClientAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'graphql.GraphQL' (OnClassCondition)
-
-   RSocketMessagingAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
-
-   RSocketRequesterAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'io.rsocket.RSocket' (OnClassCondition)
-
-   RSocketSecurityAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.security.rsocket.core.SecuritySocketAcceptorInterceptor' (OnClassCondition)
-
-   RSocketServerAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'io.rsocket.core.RSocketServer' (OnClassCondition)
-
-   RSocketStrategiesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'io.netty.buffer.PooledByteBufAllocator' (OnClassCondition)
-
-   RabbitAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.rabbitmq.client.Channel' (OnClassCondition)
-
-   ReactiveElasticsearchClientAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'co.elastic.clients.transport.ElasticsearchTransport' (OnClassCondition)
-
-   ReactiveElasticsearchRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.data.elasticsearch.client.elc.ReactiveElasticsearchClient' (OnClassCondition)
-
-   ReactiveMultipartAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
-
-   ReactiveOAuth2ClientAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
-
-   ReactiveOAuth2ResourceServerAutoConfiguration:
-      Did not match:
-         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
-
-   ReactiveSecurityAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
-
-   ReactiveUserDetailsServiceAutoConfiguration:
-      Did not match:
-         - AnyNestedCondition 0 matched 2 did not; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.RSocketEnabledOrReactiveWebApplication.ReactiveWebApplicationCondition did not find reactive web application classes; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.RSocketEnabledOrReactiveWebApplication.RSocketSecurityEnabledCondition @ConditionalOnBean (types: org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler; SearchStrategy: all) did not find any beans of type org.springframework.messaging.rsocket.annotation.support.RSocketMessageHandler (ReactiveUserDetailsServiceAutoConfiguration.RSocketEnabledOrReactiveWebApplication)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.security.authentication.ReactiveAuthenticationManager' (OnClassCondition)
-         - AnyNestedCondition 1 matched 2 did not; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'password'; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'name'; NestedCondition on ReactiveUserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.ReactiveOpaqueTokenIntrospector' (ReactiveUserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
-
-   ReactiveWebServerFactoryAutoConfiguration:
-      Did not match:
-         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
-
-   ReactorAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Hooks' (OnClassCondition)
-
-   RedisAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.core.RedisOperations' (OnClassCondition)
-
-   RedisCacheConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.connection.RedisConnectionFactory' (OnClassCondition)
-
-   RedisReactiveAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Flux' (OnClassCondition)
-
-   RedisRepositoriesAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.data.redis.repository.configuration.EnableRedisRepositories' (OnClassCondition)
-
-   RemoteDevToolsAutoConfiguration:
-      Did not match:
-         - @ConditionalOnProperty (spring.devtools.remote.secret) did not find property 'secret' (OnPropertyCondition)
-      Matched:
-         - @ConditionalOnClass found required classes 'jakarta.servlet.Filter', 'org.springframework.http.server.ServerHttpRequest' (OnClassCondition)
-
-   RepositoryRestMvcAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.data.rest.webmvc.config.RepositoryRestMvcConfiguration' (OnClassCondition)
-
-   Saml2RelyingPartyAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (OnClassCondition)
-
-   SecurityDataConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.security.data.repository.query.SecurityEvaluationContextExtension' (OnClassCondition)
-
-   SendGridAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'com.sendgrid.SendGrid' (OnClassCondition)
-
-   ServletWebServerFactoryAutoConfiguration.ForwardedHeaderFilterConfiguration:
-      Did not match:
-         - @ConditionalOnProperty (server.forward-headers-strategy=framework) did not find property 'server.forward-headers-strategy' (OnPropertyCondition)
-
-   ServletWebServerFactoryConfiguration.EmbeddedJetty:
-      Did not match:
-         - @ConditionalOnClass did not find required classes 'org.eclipse.jetty.server.Server', 'org.eclipse.jetty.util.Loader', 'org.eclipse.jetty.ee10.webapp.WebAppContext' (OnClassCondition)
-
-   ServletWebServerFactoryConfiguration.EmbeddedUndertow:
-      Did not match:
-         - @ConditionalOnClass did not find required classes 'io.undertow.Undertow', 'org.xnio.SslClientAuthMode' (OnClassCondition)
-
-   SessionAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.session.Session' (OnClassCondition)
-
-   SpringApplicationAdminJmxAutoConfiguration:
-      Did not match:
-         - @ConditionalOnProperty (spring.application.admin.enabled=true) did not find property 'enabled' (OnPropertyCondition)
-
-   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration:
-      Did not match:
-         - AllNestedConditions 1 matched 1 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) found beans of type 'org.springframework.security.web.SecurityFilterChain' securityfilterchain; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
-
-   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration:
-      Did not match:
-         - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) found beans named springSecurityFilterChain (OnBeanCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
-
-   TaskExecutorConfigurations.SimpleAsyncTaskExecutorBuilderConfiguration#simpleAsyncTaskExecutorBuilderVirtualThreads:
-      Did not match:
-         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskExecutorBuilder' simpleAsyncTaskExecutorBuilder (OnBeanCondition)
-
-   TaskExecutorConfigurations.TaskExecutorConfiguration#applicationTaskExecutorVirtualThreads:
-      Did not match:
-         - @ConditionalOnThreading did not find VIRTUAL (OnThreadingCondition)
-
-   TaskSchedulingAutoConfiguration#scheduledBeanLazyInitializationExcludeFilter:
-      Did not match:
-         - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor (OnBeanCondition)
-
-   TaskSchedulingConfigurations.SimpleAsyncTaskSchedulerBuilderConfiguration#simpleAsyncTaskSchedulerBuilderVirtualThreads:
-      Did not match:
-         - @ConditionalOnMissingBean (types: org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder; SearchStrategy: all) found beans of type 'org.springframework.boot.task.SimpleAsyncTaskSchedulerBuilder' simpleAsyncTaskSchedulerBuilder (OnBeanCondition)
-
-   TaskSchedulingConfigurations.TaskSchedulerConfiguration:
-      Did not match:
-         - @ConditionalOnBean (names: org.springframework.context.annotation.internalScheduledAnnotationProcessor; SearchStrategy: all) did not find any beans named org.springframework.context.annotation.internalScheduledAnnotationProcessor (OnBeanCondition)
-
-   ThymeleafAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.thymeleaf.spring6.SpringTemplateEngine' (OnClassCondition)
-
-   TransactionAutoConfiguration#transactionalOperator:
-      Did not match:
-         - @ConditionalOnSingleCandidate (types: org.springframework.transaction.ReactiveTransactionManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
-
-   TransactionAutoConfiguration.AspectJTransactionManagementConfiguration:
-      Did not match:
-         - @ConditionalOnBean (types: org.springframework.transaction.aspectj.AbstractTransactionAspect; SearchStrategy: all) did not find any beans of type org.springframework.transaction.aspectj.AbstractTransactionAspect (OnBeanCondition)
-
-   TransactionAutoConfiguration.EnableTransactionManagementConfiguration.JdkDynamicAutoProxyConfiguration:
-      Did not match:
-         - @ConditionalOnProperty (spring.aop.proxy-target-class=false) did not find property 'proxy-target-class' (OnPropertyCondition)
-
-   UserDetailsServiceAutoConfiguration:
-      Did not match:
-         - @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder; SearchStrategy: all) found beans of type 'org.springframework.security.authentication.AuthenticationManager' authenticationmanager and found beans of type 'org.springframework.security.authentication.AuthenticationProvider' authprovider (OnBeanCondition)
-      Matched:
-         - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
-         - AnyNestedCondition 1 matched 2 did not; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.PasswordConfigured @ConditionalOnProperty (spring.security.user.password) did not find property 'password'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.NameConfigured @ConditionalOnProperty (spring.security.user.name) did not find property 'name'; NestedCondition on UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured.MissingAlternative @ConditionalOnMissingClass did not find unwanted classes 'org.springframework.security.oauth2.client.registration.ClientRegistrationRepository', 'org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector', 'org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository' (UserDetailsServiceAutoConfiguration.MissingAlternativeOrUserPropertiesConfigured)
-
-   ValidationAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'jakarta.validation.executable.ExecutableValidator' (OnClassCondition)
-
-   WebClientAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.function.client.WebClient' (OnClassCondition)
-
-   WebFluxAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.web.reactive.config.WebFluxConfigurer' (OnClassCondition)
-
-   WebMvcAutoConfiguration#hiddenHttpMethodFilter:
-      Did not match:
-         - @ConditionalOnProperty (spring.mvc.hiddenmethod.filter.enabled) did not find property 'enabled' (OnPropertyCondition)
-
-   WebMvcAutoConfiguration.ProblemDetailsErrorHandlingConfiguration:
-      Did not match:
-         - @ConditionalOnProperty (spring.mvc.problemdetails.enabled=true) did not find property 'enabled' (OnPropertyCondition)
-
-   WebMvcAutoConfiguration.ResourceChainCustomizerConfiguration:
-      Did not match:
-         - @ConditionalOnEnabledResourceChain did not find class org.webjars.WebJarAssetLocator (OnEnabledResourceChainCondition)
-
-   WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter#beanNameViewResolver:
-      Did not match:
-         - @ConditionalOnMissingBean (types: org.springframework.web.servlet.view.BeanNameViewResolver; SearchStrategy: all) found beans of type 'org.springframework.web.servlet.view.BeanNameViewResolver' beanNameViewResolver (OnBeanCondition)
-
-   WebServicesAutoConfiguration#wsdlDefinitionBeanFactoryPostProcessor:
-      Did not match:
-         - WSDL locations did not find property spring.webservices.wsdl-locations (OnWsdlLocationsCondition)
-
-   WebSessionIdResolverAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'reactor.core.publisher.Mono' (OnClassCondition)
-
-   WebSocketMessagingAutoConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer' (OnClassCondition)
-
-   WebSocketReactiveAutoConfiguration:
-      Did not match:
-         - @ConditionalOnWebApplication did not find reactive web application classes (OnWebApplicationCondition)
-
-   WebSocketServletAutoConfiguration.JettyWebSocketConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'org.eclipse.jetty.ee10.websocket.jakarta.server.config.JakartaWebSocketServletContainerInitializer' (OnClassCondition)
-
-   WebSocketServletAutoConfiguration.UndertowWebSocketConfiguration:
-      Did not match:
-         - @ConditionalOnClass did not find required class 'io.undertow.websockets.jsr.Bootstrap' (OnClassCondition)
-
-   XADataSourceAutoConfiguration:
-      Did not match:
-         - @ConditionalOnBean (types: org.springframework.boot.jdbc.XADataSourceWrapper; SearchStrategy: all) did not find any beans of type org.springframework.boot.jdbc.XADataSourceWrapper (OnBeanCondition)
-      Matched:
-         - @ConditionalOnClass found required classes 'javax.sql.DataSource', 'jakarta.transaction.TransactionManager', 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType' (OnClassCondition)
-
-
-Exclusions:
------------
-
-    None
-
-
-Unconditional classes:
-----------------------
-
-    org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
-
-    org.springframework.boot.autoconfigure.ssl.SslAutoConfiguration
-
-    org.springframework.boot.autoconfigure.context.LifecycleAutoConfiguration
-
-    org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
-
-    org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration
-
-    org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
-
-
-
-2026-05-11T09:41:27.964+05:30  INFO 3696 --- [courier_management] [  restartedMain] j.CourierManagementApplication           : Started CourierManagementApplication in 229.133 seconds (process running for 229.797)
-2026-05-11T09:41:27.967+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
-2026-05-11T09:41:27.973+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.boot.devtools.restart.Restarter      : Creating new Restarter for thread Thread[main,5,main]
-2026-05-11T09:41:27.973+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.boot.devtools.restart.Restarter      : Immediately restarting application
-2026-05-11T09:41:27.974+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.boot.devtools.restart.Restarter      : Starting application jpapackage.CourierManagementApplication with URLs [file:/D:/GitClones_2/courier_management_spring-boot/target/classes/]
-2026-05-11T09:41:27.976+05:30 DEBUG 3696 --- [courier_management] [  restartedMain] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
