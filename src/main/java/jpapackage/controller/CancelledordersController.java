@@ -1,5 +1,8 @@
 package jpapackage.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -24,6 +27,18 @@ public class CancelledordersController {
 	public void delete(@RequestBody CancelledOrders orders) {
 		service.AddToCancelOrder(orders);
 
+	}
+
+	@GetMapping(path="/user/getcancelledorders/{email}", produces=MediaType.APPLICATION_JSON_VALUE)
+	public List<CancelledOrders> getCancelledOrders(@PathVariable String email) {
+		List<CancelledOrders> orders = new ArrayList<>();
+		try {
+			return service.getCancelledOrders(email);
+		}
+		catch (Exception exception) {
+			exception.printStackTrace();
+			return orders;
+		}
 	}
 	
 	@GetMapping(path="/encodepassword/{password}")
